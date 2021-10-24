@@ -8,11 +8,11 @@ import easygui
 model = load_model('C:\\Users\\Admin\\Desktop\\pythonProject\\Flower\\vggmodel.h5')
 model.load_weights('C:\\Users\\Admin\\Desktop\\pythonProject\\Flower\\weights-03-0.77.hdf5')
 classes = {
-    0:'its a daisy',
-    1:'its a dandelion',
-    2:'its a rose',
-    3:'its a sunflowers',
-    4:'its a tulip'
+    0:'daisy',
+    1:'dandelion',
+    2:'rose',
+    3:'sunflowers',
+    4:'tulip'
 }
 top=tk.Tk()
 top.geometry('800x600')
